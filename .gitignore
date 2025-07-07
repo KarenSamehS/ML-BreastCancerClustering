@@ -1,0 +1,63 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+*.venv
+
+# Data and output files
+*.csv
+*.json
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.log
+
+# Cache and temporary files
+*.cache
+*.bak
+*.swp
+*~
+*.tmp
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.pytest_cache/
